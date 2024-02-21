@@ -9,4 +9,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Use Streamline CV GitHub Action
-        uses: achugr/streamline-cv-gh-action-build@main
+        uses: Streamline-CV/gh-action-build@main
