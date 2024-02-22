@@ -1,4 +1,4 @@
-# Stramline CV
+# Streamline CV
 
 This tools helps you to deal with CV and cover letter routine.
 
