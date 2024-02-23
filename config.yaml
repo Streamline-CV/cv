@@ -1,15 +1,15 @@
 cv:
-  name: John Doe
-  label: Mechanical Engineer
-  location: TX, USA
-  email: johndoe@example.com
-  phone: '+33749882538'
-  website: https://example.com
-  social_networks:
-    - network: GitHub
-      username: johndoe
-    - network: LinkedIn
-      username: johndoe
+  name: Andrei Zaitsev
+  label: Senior Software Engineer
+  location: North Holland, Amsterdam
+  email: andrey.zayitsev@gmail.com
+  phone: '+31681050223'
+  # website: null
+  # social_networks:
+  #   - network: GitHub
+  #     username: johndoe
+  #   - network: LinkedIn
+  #     username: johndoe
   summary: I am a motivated (haha, no) Mechanical Engineer with a strong academic record from prestigious institutions and practical experience in innovative environments like CERN. My specialization lies in the design, simulation, and implementation of mechanical systems, especially in robotics and finite element analysis. I possess strong technical skills, approach problems proactively, and am dedicated to innovation. I excel in team settings where I can contribute to significant projects and promote advancements in engineering.
   cover_letter:
     company: DreamTeam Corporation
