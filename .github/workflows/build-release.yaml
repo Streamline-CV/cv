@@ -1,0 +1,15 @@
+name: Release
+on:
+  push:
+    branches:
+      - main
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Release CV and cover letter
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Streamline CV GitHub Action
+        uses: Streamline-CV/gh-action-release@main
