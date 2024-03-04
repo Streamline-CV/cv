@@ -15,3 +15,13 @@ jobs:
       - uses: actions/checkout@v2
       - name: Use Streamline CV GitHub Action
         uses: Streamline-CV/gh-action-build@main
+  review:
+    runs-on: ubuntu-latest
+    name: Review CV
+    steps:
+      - uses: actions/checkout@v2
+      - name: Review CV
+        uses: Streamline-CV/gh-action-aireview@main
+        with:
+          openaiKey: ${{ secrets.OPENAI_API_KEY }}
+          githubKey: ${{ secrets.GITHUB_TOKEN }}
